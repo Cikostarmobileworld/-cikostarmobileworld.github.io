@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIKO STAR MOBILE WORLD | Phones, Repairs & Gadgets in Ogbomosho</title>
+<meta name="description" content="CIKO STAR MOBILE WORLD is a phone and gadget store in Ogbomosho, Oyo State. Shop smartphones, iPhones, Samsung phones, gadgets and accessories, with professional phone repair services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0788d1;--dark:#101820;--light:#f5f9fc;--muted:#66727d;--white:#fff;--line:#e4edf3}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--dark);background:var(--white);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navbar{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.nav-logo{height:54px;width:auto;object-fit:contain}
+.nav-links{display:flex;gap:25px;font-weight:600;font-size:14px}
+.nav-links a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:13px 19px;font-weight:700;border:1px solid transparent;transition:.2s}
+.btn-primary{background:var(--blue);color:white;box-shadow:0 8px 24px rgba(8,136,209,.22)}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-outline{border-color:#cfe2ed;background:white}
+.hero{background:linear-gradient(135deg,#eef8fd 0%,#fff 55%,#edf7fc 100%);padding:72px 0 80px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px}
+.badge{display:inline-block;background:#dff3ff;color:#0576b8;padding:8px 13px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(40px,6vw,68px);line-height:1.02;letter-spacing:-2.5px;margin-bottom:20px}
+h1 span{color:var(--blue)}
+.hero p{font-size:18px;color:var(--muted);max-width:600px;margin-bottom:28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:white;border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:0 20px 60px rgba(16,24,32,.10)}
+.hero-card img{width:100%;border-radius:18px;display:block}
+.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.mini{background:var(--light);border-radius:14px;padding:12px;text-align:center;font-weight:700;font-size:12px}
+section{padding:76px 0}
+.section-head{text-align:center;max-width:700px;margin:0 auto 40px}
+.kicker{color:var(--blue);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:1.4px}
+h2{font-size:clamp(30px,4vw,44px);line-height:1.1;margin:8px 0 12px}
+.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:20px;padding:25px;background:white}
+.icon{width:48px;height:48px;border-radius:14px;background:#e4f5ff;color:var(--blue);display:grid;place-items:center;font-size:22px;margin-bottom:16px}
+.card h3{margin-bottom:7px}
+.card p{color:var(--muted);font-size:14px}
+.products{background:var(--light)}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.product{background:white;border:1px solid var(--line);border-radius:20px;padding:20px}
+.product-photo{height:190px;border-radius:16px;background:linear-gradient(145deg,#edf6fb,#fff);display:grid;place-items:center;font-size:62px;margin-bottom:17px}\n.product-image{width:100%;height:190px;object-fit:cover;border-radius:16px;background:#f5f9fc;display:block;margin-bottom:17px}
+.product h3{font-size:18px}
+.product p{color:var(--muted);font-size:13px;margin:4px 0 14px}
+.product .btn{width:100%}
+.quote{background:var(--dark);color:white}
+.quote-inner{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.quote h2{font-size:42px}
+.quote p{color:#cbd6de}
+.slogan{font-size:24px;font-weight:800;margin-top:20px;color:#8bd8ff}
+.contact-box{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.contact-card{border:1px solid var(--line);border-radius:20px;padding:26px}
+.contact-card p{color:var(--muted);margin:5px 0 18px}
+footer{background:#081018;color:#aebbc5;padding:28px 0}
+.footer{display:flex;justify-content:space-between;gap:20px;align-items:center;font-size:13px}
+@media(max-width:800px){
+ .nav-links{display:none}.navbar{height:68px}
+ .hero{padding:48px 0}.hero-grid,.quote-inner,.contact-box{grid-template-columns:1fr}
+ .cards,.product-grid{grid-template-columns:1fr}
+ section{padding:58px 0} h1{letter-spacing:-1.5px}
+ .hero-card{order:-1}.quote h2{font-size:34px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container navbar">
+    <a href="#top"><img class="nav-logo" src="logo.jpeg" alt="CIKO STAR Mobile World logo"></a>
+    <div class="nav-links">
+      <a href="#services">Services</a><a href="#phones">Phones</a><a href="#about">Why CIKO STAR</a><a href="#contact">Contact</a>
+    </div>
+    <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%20Mobile%20World%2C%20I%20want%20to%20make%20an%20enquiry." target="_blank">WhatsApp Us</a>
+  </div>
+</nav>
+
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">REPAIRS • PHONES • GADGETS</div>
+      <h1>Your next phone is <span>at CIKO STAR.</span></h1>
+      <p>Shop phones and gadgets, get professional repairs, and deal with a mobile brand built around quality service and customer trust.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#phones">Explore Phones</a>
+        <a class="btn btn-outline" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20I%27d%20like%20to%20ask%20about%20a%20phone." target="_blank">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="logo.jpeg" alt="CIKO STAR Mobile World">
+      <div class="mini-grid">
+        <div class="mini">📱 Phones</div><div class="mini">🛠️ Repairs</div><div class="mini">🎧 Gadgets</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="section-head"><div class="kicker">What we do</div><h2>Everything mobile, under one roof.</h2><p>From buying your next device to keeping your current one working properly.</p></div>
+    <div class="cards">
+      <div class="card"><div class="icon">📱</div><h3>Phones</h3><p>Browse available smartphones and enquire about the model, storage, condition and current price.</p></div>
+      <div class="card"><div class="icon">🛠️</div><h3>Repairs</h3><p>Professional mobile-device repairs and troubleshooting for customers who want their phones back in shape.</p></div>
+      <div class="card"><div class="icon">🎧</div><h3>Gadgets</h3><p>Discover useful accessories and gadgets for everyday mobile life.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="phones" class="products">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Featured</div><h2>Popular phone categories</h2><p>Send us a WhatsApp message for current stock and prices.</p></div>
+    <div class="product-grid">
+      <div class="product">
+        <img class="product-image" src="IMG_0002.jpeg" alt="Phone available at CIKO STAR MOBILE WORLD">
+        <h3>iPhone</h3><p>New and fairly-used options may be available.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20your%20available%20iPhones%20and%20prices." target="_blank">Ask for iPhone prices</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="IMG_0804.jpeg" alt="Samsung phone available at CIKO STAR MOBILE WORLD">
+        <h3>Samsung</h3><p>Ask about available Galaxy models and storage options.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20your%20available%20Samsung%20phones%20and%20prices." target="_blank">Ask for Samsung prices</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="IMG_7195.jpeg" alt="Phone available at CIKO STAR MOBILE WORLD">
+        <h3>Available Phones</h3><p>Ask for current stock and prices.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20your%20available%20phones%20and%20prices." target="_blank">Ask what's available</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="IMG_7206.jpeg" alt="Phone available at CIKO STAR MOBILE WORLD">
+        <h3>Featured Phone</h3><p>Check availability and current price.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20the%20price%20of%20this%20phone." target="_blank">Ask for price</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="IMG_7622.jpeg" alt="Phone available at CIKO STAR MOBILE WORLD">
+        <h3>Featured Phone</h3><p>Check availability and current price.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20the%20price%20of%20this%20phone." target="_blank">Ask for price</a>
+      </div>
+      <div class="product">
+        <img class="product-image" src="IMG_7764.jpeg" alt="Phone available at CIKO STAR MOBILE WORLD">
+        <h3>Accessories & Gadgets</h3><p>Ask what accessories and gadgets are currently in stock.</p>
+        <a class="btn btn-primary" href="https://wa.me/2347031552776?text=Hello%20CIKO%20STAR%2C%20please%20send%20me%20your%20available%20gadgets%20and%20prices." target="_blank">Ask what's available</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container quote-inner">
+    <div>
+      <div class="kicker">The CIKO STAR promise</div>
+      <h2>Buy with confidence. Ask questions. Get support.</h2>
+      <p>Use the website as your brand's online storefront, then direct customers to WhatsApp for live stock, prices and orders.</p>
+      <div class="slogan">“Tí ó bá jẹ́ fónu, CIKO ló mọ̀!” 📱🔥</div>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">✓</div><h3>Clear communication</h3><p>Customers can contact you directly before buying.</p></div>
+      <div class="card"><div class="icon">⚡</div><h3>Fast enquiries</h3><p>WhatsApp buttons make it easy to ask for stock and prices.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Get in touch</div><h2>Ready to get your next phone?</h2><p>Contact CIKO STAR MOBILE WORLD today.</p></div>
+    <div class="contact-box">
+      <div class="contact-card"><h3>🎵 Follow us on TikTok</h3><p>@cikostarmobileworld</p><a class="btn btn-primary" href="https://www.tiktok.com/@cikostarmobileworld" target="_blank">Open TikTok</a></div>
+      <div class="contact-card"><h3>📞 Call / WhatsApp</h3><p>0703 155 2776</p><a class="btn btn-primary" href="https://wa.me/2347031552776" target="_blank">Message us on WhatsApp</a></div>
+      <div class="contact-card"><h3>📍 Visit our shop</h3><p>Major Ojo Street, Aresin Shopping Complex, Agboin Area, Ogbomosho, Oyo State.</p><a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Major%20Ojo%20Street%2C%20Aresin%20Shopping%20Complex%2C%20Agboin%20Area%2C%20Ogbomosho%2C%20Oyo%20State" target="_blank">Open in Maps</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div>© 2026 CIKO STAR MOBILE WORLD</div><div>BN: 8103499 • Repairs / Phones / Gadgets</div></div></footer>
+</body>
+</html>
